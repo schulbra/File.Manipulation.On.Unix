@@ -1,8 +1,6 @@
 /*------------------------------------------------------------------------------------------------|
 --      Name:           Brandon Schultz
 ---     Date:           1 - 23 - 22
-----    Course:         CS 344 400 W2022
------   Assignment:     2 :  Files and Directories
 ------  Description:    This program:
 ------      Reads directory entries
 ------      Finds  a file in the current directory based on user specified criteria
@@ -320,6 +318,13 @@ char* promptUserFile()
     return UIFileName;
 }
 
+
+/*------------------------------------------------------------------------------------------
+ - The below is a UI that was intended to be included with the final commmit, however, due 
+ to time constraints and compiling issues after inclusion of API for operations on
+ files/directories I opted for a less magnificent version. One day I will fix
+ this.
+----------------------------------------------------------------------------------------*/
 
 /*
 int main(int argc, char* argv[])
